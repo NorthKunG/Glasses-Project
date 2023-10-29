@@ -9,7 +9,7 @@
         </header>
         <div class="container-fluid">
             <div class="d-flex justify-content-center">
-                <form v-on:submit="editGlass" class="my-5" style="background: #FAD7A0; width: 70rem;">
+                <form v-on:submit.prevent="editGlass" class="my-5" style="background: #FAD7A0; width: 70rem;">
                     <div class="my-3 fw-bold" style="color: #7E5109">
                         <h1>Edit Glass</h1>
                         <hr>
